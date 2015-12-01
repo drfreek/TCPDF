@@ -55,7 +55,7 @@ class TCPDF_STATIC {
 	 * Current TCPDF version.
 	 * @private static
 	 */
-	private static $tcpdf_version = '6.2.12';
+	private static $tcpdf_version = '';
 
 	/**
 	 * String alias for total number of pages.
@@ -125,7 +125,7 @@ class TCPDF_STATIC {
 	 * @public static
 	 */
 	public static function getTCPDFProducer() {
-		return "\x54\x43\x50\x44\x46\x20".self::getTCPDFVersion()."\x20\x28\x68\x74\x74\x70\x3a\x2f\x2f\x77\x77\x77\x2e\x74\x63\x70\x64\x66\x2e\x6f\x72\x67\x29";
+		return '';
 	}
 
 	/**
