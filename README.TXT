@@ -1,3 +1,5 @@
+This version of TCPDF is bereft footprint in generated docs.
+
 TCPDF - README
 ============================================================
 
